@@ -1,0 +1,10 @@
+:root { color-scheme: dark; --bg: #05070f; --text: #dfe6f2; --muted: #8a96ab; --gold: #e2b85a; }
+body { margin: 0; background: var(--bg); color: var(--text); font: 16px/1.7 system-ui, "Malgun Gothic", sans-serif; }
+main { max-width: 720px; margin: 0 auto; padding: 48px 16px; }
+h1 { color: var(--gold); margin: 0; font-size: 2.2rem; }
+h2 { color: var(--gold); margin-top: 2em; font-size: 1.2rem; }
+.sub, footer, .muted { color: var(--muted); }
+a { color: #8fd3ff; }
+nav { margin: 2em 0; }
+.soon { display: inline-block; border: 1px solid var(--gold); border-radius: 6px; padding: 4px 10px; color: var(--gold); }
+hr { border: 0; border-top: 1px solid #1d2638; margin: 3em 0; }

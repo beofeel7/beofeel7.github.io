@@ -7,8 +7,8 @@
   <title>Beofeel - Official Website</title>
   <!-- SEO Meta Tags -->
   <meta name="description"
-    content="Beofeel is an independent mobile game studio making space games: Halkyra (fleet ramming RPG) and Project O2S (cosmic launcher).">
-  <meta name="keywords" content="Beofeel, Halkyra, 할키라, Project O2S, Mobile Games, Indie Game, Space Game, Game Development">
+    content="Beofeel is an independent mobile game studio making mobile games: Halkyra (fleet ramming RPG), Chrono Hall (museum escape action) and Project O2S (cosmic launcher).">
+  <meta name="keywords" content="Beofeel, Halkyra, 할키라, Chrono Hall, 크로노 홀, Project O2S, Mobile Games, Indie Game, Space Game, Game Development">
   <meta name="author" content="Beofeel">
 
   <!-- Google Search Console Verification (Replace the content value with your token) -->
@@ -478,10 +478,29 @@
   <section id="games" class="section-container">
     <div class="section-header">
       <h2>Featured Games</h2>
-      <p>Beofeel이 만든 우주 게임들을 확인해 보세요.</p>
+      <p>Beofeel이 만든 게임들을 확인해 보세요.</p>
     </div>
 
     <div class="games-grid">
+      <!-- Game Card: Chrono Hall -->
+      <div class="game-card">
+        <div class="game-image">
+          <img src="chronohall/icon.png" alt="크로노 홀 아이콘" width="150" height="150" style="border-radius: 32px; box-shadow: 0 8px 30px rgba(255, 180, 70, 0.35);">
+        </div>
+        <div class="game-details">
+          <h3>크로노 홀 <span style="font-size: 1rem; color: var(--text-gray); font-weight: 400;">Chrono Hall</span></h3>
+          <p class="game-tagline">밤의 시간 박물관에서 탈출하라</p>
+          <p class="game-description">
+            밤이 되자 박물관의 전시물이 살아나 관람객을 가뒀습니다. 손전등을 든 야간 경비원이 되어 몰려오는 전시물을 버티고, 갇힌 동료를 구해 함께 싸우며 시간 균열로 탈출하세요.
+          </p>
+          <div style="display: flex; gap: 0.75rem; flex-wrap: wrap;">
+            <!-- 출시 뒤: href="https://play.google.com/store/apps/details?id=com.bof.chronohall" 로 바꾸고 onclick을 지운다 -->
+            <a href="#" class="btn btn-primary" onclick="alert('Google Play 출시 준비 중입니다.'); return false;">Google Play 스토어</a>
+            <a href="chronohall/privacy.html" class="btn btn-secondary">개인정보처리방침</a>
+          </div>
+        </div>
+      </div>
+
       <!-- Game Card: Halkyra -->
       <div class="game-card">
         <div class="game-image">
@@ -525,15 +544,16 @@
   <section id="privacy" class="section-container">
     <div class="section-header">
       <h2>Privacy Policy</h2>
-      <p>Beofeel 게임 전체에 적용되는 안내입니다. 할키라 전용 방침은 <a href="halkyra/privacy.html" style="color: #60a5fa;">여기</a>에 있습니다.</p>
+      <p>Beofeel 게임 전체에 적용되는 안내입니다. 게임별 전용 방침: <a href="halkyra/privacy.html" style="color: #60a5fa;">할키라</a> · <a href="chronohall/privacy.html" style="color: #60a5fa;">크로노 홀</a></p>
     </div>
 
     <div class="privacy-box">
-      <p><strong>Last updated: November 12, 2026</strong></p>
+      <p><strong>Last updated: November 27, 2026</strong></p>
       <br>
       <p>This Privacy Policy describes how we collect, use, and share information when you play our mobile games
-        "Halkyra" and "Project O2S" (each a "Game") and visit our website. Halkyra also has its own policy at
-        <a href="halkyra/privacy.html" style="color: #60a5fa;">halkyra/privacy.html</a>.</p>
+        "Halkyra", "Chrono Hall" and "Project O2S" (each a "Game") and visit our website. Halkyra and Chrono Hall also have their own policies at
+        <a href="halkyra/privacy.html" style="color: #60a5fa;">halkyra/privacy.html</a> and
+        <a href="chronohall/privacy.html" style="color: #60a5fa;">chronohall/privacy.html</a>.</p>
 
       <h3>1. Information We Collect</h3>
       <p>We do not collect any personal identity information directly from users. However, the Game may use third-party
@@ -594,7 +614,7 @@
     <div class="footer-content">
       <div class="footer-brand">
         <h4>Beofeel</h4>
-        <p>우주를 무대로 한 모바일 게임을 만듭니다. 할키라, Project O2S.</p>
+        <p>모바일 게임을 만듭니다. 할키라, 크로노 홀, Project O2S.</p>
       </div>
       <div class="footer-info">
         <h5>Corporate Registry & contact</h5>
